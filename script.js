@@ -54,7 +54,6 @@ let filters = {
         unit:"%"
     }
 }
-
 const filtersContainer = document.querySelector(".filters")
 const imageCanvas = document.querySelector("#image-canvas")
 const imgInput = document.querySelector("#image-input")
