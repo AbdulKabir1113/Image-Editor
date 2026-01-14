@@ -88,6 +88,7 @@ function createFilterElement(name,unit = "%",value,min,max){
     return div
 }
 
+// Create filter elements dynamically
 function createFilters(){
 
     Object.keys(filters).forEach(key =>{
