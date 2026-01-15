@@ -102,8 +102,6 @@ function createFilters(){
 }
 createFilters()
 
-
-
 imgInput.addEventListener("change",(event)=>{
     let file = event.target.files[0]
     const imagePlaceHolder = document.querySelector(".placeholder")
