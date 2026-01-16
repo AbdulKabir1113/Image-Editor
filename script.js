@@ -221,7 +221,6 @@ resetButton.addEventListener("click", () => {
     applyfilters()
 })
 
-
 downloadButton.addEventListener("click",()=>{
     const link = document.createElement("a")
     link.download = "Edited-image-png"
